@@ -1,0 +1,546 @@
+*{margin:0;padding:0;box-sizing: border-box;overflow-x: none}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Source+Code+Pro:wght@700&display=swap');
+
+
+body {
+    background-color:black;
+    width: 100%;
+}
+
+#home
+{
+    width:100%;
+    height: 100vh;
+}
+
+#main
+{
+    width: 100%;
+    height: 65px;
+    color: grey;
+    color:white;
+    font-family: 'Merriweather', serif;
+    display:flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 20px;
+
+    
+}
+
+
+#submain {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    float:left;
+    margin-bottom: 10px;
+
+}
+
+.a1
+{
+    margin-left: 100px;
+}
+.a1, .a2, .a3 ,.a4{
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+#im1
+{
+   width:500px;
+   height: 700px;
+   margin-bottom: 80px;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+#text
+{
+    color:white;
+    float:left;
+    margin-left:20px;
+    margin-bottom: 100px;
+    height: 500px;
+    width:30%;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-right: 50px
+
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+#hii
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin-left: 50px;
+    line-height: 20px;
+    margin-bottom:20px;
+    letter-spacing: 5px;
+}
+
+#i{
+    margin-left: 50px;
+    margin-bottom:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+#web
+{
+    line-height: 1px;
+    margin-left:50px;font-size:20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
+    color:grey;
+    margin-bottom: 30px;
+
+}
+
+#cv
+{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color:white;
+
+    background-color:grey
+}
+
+#cv:hover
+{
+    background-color:black;
+    cursor: pointer;
+}
+
+
+#insta
+{
+    color:grey;
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#insta:hover{
+    color:red
+}
+
+
+#image
+{
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width:65%;
+    margin-left:10%;
+    color:white;
+    
+}
+
+#content
+{
+    font-size: 25px;
+    line-height: 40px;
+    font-family:cursive;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+button:hover{
+    color:red;
+    cursor: pointer;
+}
+
+.a1:hover
+{
+    color:red;
+    cursor: pointer;
+}
+.a2:hover
+{
+    color:red;
+    cursor: pointer;
+
+}
+.a3:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.a4:hover
+{
+    color:red;
+    cursor: pointer;
+}
+
+
+
+
+#about
+{
+    width:100%;
+    height: 100vh;
+
+
+}
+
+#ab
+{
+    color:white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    display:flex;
+    width: 100%;
+}
+
+
+#img1{
+    width:400px;
+    height:500px;
+}
+#im
+{
+    margin-left: 5%;
+    float:left;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+#aboutcontent
+{
+    color:white;
+    width:50%;
+    float:left;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size:10px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#skills
+{
+    width:100%;
+    height: 50vh;
+}
+
+
+
+#sk
+{
+    
+    color:white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    display:flex;
+    width: 100%;
+}
+
+
+
+#contanct
+{
+    width:100%;
+    height:150px;
+    background-color:black;
+    margin-top: 200px;
+    background-color: aliceblue
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+#co
+{
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    display:flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content:first baseline;
+    margin-left: 20px;
+    color: white;
+}
+
+
+#inst:hover{
+    color:red;
+}
+
+
+
+#icons
+{
+    color:grey;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#graph
+{
+   width: 50%;
+   height: 400px;
+   margin-left: 30px;
+;
+}
+#spl
+{
+margin-left: 200px;
+margin-bottom: 250px;
+width: 30%;
+}
+
+
+#inst
+{
+    color:grey;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+#rights
+{
+    color:grey;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+#name
+{
+    color:red;
+    font-size:40px;
+    letter-spacing:5px;
+}
+
+
+
+@media  screen and (max-width:600px){
+    body{
+        width:600px;
+    }
+    #main
+    {
+        width: 1000px;
+       
+    }
+#submain
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+    }
+    .a1
+{
+    margin-left: 300px;
+}
+.a1, .a2, .a3 ,.a4{
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+ #home
+{
+    width: 1000px;
+
+}
+#text
+{
+    width: 300px;
+
+
+}
+#image
+{
+    float: left;
+    width: 300px;
+    margin-left: 150px;
+}
+#im1
+{
+    width:300px;
+   height: auto;
+   margin-right: 10
+}
+#content
+{
+    font-size: 40px;
+    line-height: 40px;
+    font-family:cursive;
+
+}
+#hii
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    line-height: 20px;
+    margin-bottom:20px;
+    letter-spacing: 5px;
+}
+
+#i{
+    width:500px;
+    letter-spacing: 0px;
+    font-size: 40px;
+    margin-bottom: 20px;
+   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+#web
+{
+    line-height: 1px;
+    margin-left:50px;font-size:15px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
+    color:grey;
+    margin-bottom: 1px;
+    margin-bottom: 30px;
+
+}
+
+#cv
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color:white;
+    background-color:grey
+}
+#content
+{
+    font-size: 20px;
+    line-height: 30px;
+    font-family:cursive;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 600px;
+}
+#about
+{
+    width:1000px;
+}
+#ab
+{
+        width: 1000px;
+        padding-top: 0px;
+        margin-bottom: 10px;
+}
+
+#img1
+{
+    width:300px;
+    height: auto;
+    margin-bottom:10px;
+    float: left;
+}
+
+#aboutcontent
+{
+    color:white;
+    float: left;
+    line-height: 30px;
+    font-size: 10px;
+    width:550px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left:50px;
+    
+}
+#skills
+{
+    width: 1000px;
+
+}
+#graph
+{
+    width: 500px;
+    float: left;
+}
+#spl
+{
+    width:200px;
+    float:left;
+    margin-top: 200px;
+    margin-right: 70px;
+}
+#contanct
+{
+    width: 1000px;
+    height: 20vh;
+    background-color: black;
+    
+}
+#icons
+{
+    width: 1000px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rights
+{
+    width: 1000px;
+    align-items: center;
+    display: flex;
+    padding-bottom: 30px;
+}
+#insta
+{
+    font-size: 20px;
+}
+#cv
+{
+    font-size: 20px;
+}
+
+
+
+    }
